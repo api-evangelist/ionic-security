@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/IonicDev/ionic-machina-cli
+name: Machina CLI
+binary: machina
+description: >-
+  Ionic's Machina CLI ("machina") lets users manage their Machina profiles and
+  invoke Machina SDK functions from the command line, plus utility functions
+  such as hashing and base64 encode/decode. Distributed via the IonicDev GitHub
+  releases and a Homebrew tap. Note: Ionic Security was acquired by Twilio in
+  April 2021; the hosted developer docs (dev.ionic.com) referenced by the tool
+  are no longer live, but the CLI source and releases remain published.
+help: Run `machina` for help; Machina Developers also included a command-line builder.
+install:
+  - method: homebrew
+    tap: IonicDev/homebrew-ionic
+    url: https://github.com/IonicDev/homebrew-ionic
+  - method: github-release
+    url: https://github.com/IonicDev/ionic-machina-cli/releases
+    note: Install instructions are included in each release.
+commands:
+  - name: profile management
+    description: Create and manage Machina device profiles / enrollment.
+  - name: SDK functions
+    description: Invoke Machina SDK operations (key create/fetch, encrypt/decrypt) from the shell.
+  - name: utilities
+    description: Hashing and base64 encoding/decoding helpers.
+repositories:
+  - https://github.com/IonicDev/ionic-machina-cli
+  - https://github.com/IonicDev/homebrew-ionic

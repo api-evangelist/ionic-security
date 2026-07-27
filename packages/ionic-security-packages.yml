@@ -1,0 +1,104 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/IonicDev
+notes: >-
+  Ionic Security (Machina data-protection platform) was acquired by Twilio in
+  April 2021. Its developer domains (ionic.com / dev.ionic.com / api.ionic.com)
+  are no longer live (ionic.com is a parked brand-protection page), but the
+  first-party SDKs remain published on Maven Central, PyPI, and the IonicDev
+  GitHub organization. Only libraries verified as first-party (com.ionic /
+  com.ionic.cloudstorage Maven groups, PyPI author "Ionic Security Inc.", and
+  the IonicDev GitHub org) are marked official. The unrelated "@ionic/*" npm
+  packages belong to the Ionic Framework (Drifty) and are NOT included.
+packages:
+  - language: java
+    registry: maven
+    name: com.ionic:ionic-sdk
+    url: https://mvnrepository.com/artifact/com.ionic/ionic-sdk
+    install: 'implementation "com.ionic:ionic-sdk"'
+    official: true
+    description: Machina Java SDK (core client SDK)
+  - language: java
+    registry: maven
+    name: com.ionic:ionic-sdk-dpapi
+    url: https://mvnrepository.com/artifact/com.ionic/ionic-sdk-dpapi
+    install: 'implementation "com.ionic:ionic-sdk-dpapi"'
+    official: true
+    description: Machina Java SDK DPAPI plugin
+  - language: java
+    registry: maven
+    name: com.ionic.cloudstorage:machina-tools-aws-s3
+    url: https://mvnrepository.com/artifact/com.ionic.cloudstorage/machina-tools-aws-s3
+    install: 'implementation "com.ionic.cloudstorage:machina-tools-aws-s3"'
+    official: true
+    description: Machina Tools for AWS S3 (client-side data protection)
+  - language: java
+    registry: maven
+    name: com.ionic.cloudstorage:machina-tools-gcs
+    url: https://mvnrepository.com/artifact/com.ionic.cloudstorage/machina-tools-gcs
+    install: 'implementation "com.ionic.cloudstorage:machina-tools-gcs"'
+    official: true
+    description: Machina Tools for Google Cloud Storage
+  - language: java
+    registry: maven
+    name: com.ionic.cloudstorage:machina-tools-azure-storage
+    url: https://mvnrepository.com/artifact/com.ionic.cloudstorage/machina-tools-azure-storage
+    install: 'implementation "com.ionic.cloudstorage:machina-tools-azure-storage"'
+    official: true
+    description: Machina Tools for Azure Storage
+  - language: python
+    registry: pypi
+    name: ionicsdk
+    url: https://pypi.org/project/ionicsdk/
+    install: pip install ionicsdk
+    official: true
+    description: Ionic Machina Client SDK for Python (author "Ionic Security Inc.")
+  - language: cpp
+    registry: github
+    name: IonicDev/ionic-cpp-sdk
+    url: https://github.com/IonicDev/ionic-cpp-sdk
+    install: git clone https://github.com/IonicDev/ionic-cpp-sdk
+    official: true
+    description: Machina Tools SDK for C++ (source)
+  - language: c
+    registry: github
+    name: IonicDev/ionic-c-sdk
+    url: https://github.com/IonicDev/ionic-c-sdk
+    install: git clone https://github.com/IonicDev/ionic-c-sdk
+    official: true
+    description: Machina Tools SDK for C (source)
+  - language: csharp
+    registry: github
+    name: IonicDev/ionic-csharp-sdk
+    url: https://github.com/IonicDev/ionic-csharp-sdk
+    install: git clone https://github.com/IonicDev/ionic-csharp-sdk
+    official: true
+    description: Machina Tools SDK for C#/.NET (source)
+  - language: objc
+    registry: github
+    name: IonicDev/ionic-objc-sdk
+    url: https://github.com/IonicDev/ionic-objc-sdk
+    install: git clone https://github.com/IonicDev/ionic-objc-sdk
+    official: true
+    description: Machina Tools SDK for Objective-C (source)
+  - language: javascript
+    registry: github
+    name: IonicDev/ionic-js-sdk
+    url: https://github.com/IonicDev/ionic-js-sdk
+    install: git clone https://github.com/IonicDev/ionic-js-sdk
+    official: true
+    description: Machina JavaScript SDK (source)
+  - language: python
+    registry: github
+    name: IonicDev/ionic-python-sdk
+    url: https://github.com/IonicDev/ionic-python-sdk
+    install: git clone https://github.com/IonicDev/ionic-python-sdk
+    official: true
+    description: Machina Python SDK (source mirror of the PyPI ionicsdk package)
+  - language: nodejs
+    registry: github
+    name: IonicDev/ionic-admin-nodejs
+    url: https://github.com/IonicDev/ionic-admin-nodejs
+    install: git clone https://github.com/IonicDev/ionic-admin-nodejs
+    official: true
+    description: Node.js library for the Ionic Machina administration API

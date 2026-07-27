@@ -1,25 +1,82 @@
 aid: ionic-security
-name: Ionic Security *
-description: 'Ionic Security * is a company surfaced as a portfolio company of gv, kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ionic-security.png
+name: Ionic Security
+description: >-
+  Ionic Security was an Atlanta, Georgia data-protection and dynamic-authorization
+  company whose Machina platform let developers add data access, control, and
+  protection to any application with a small amount of code. Machina provided an
+  API-driven service layer for just-in-time enforcement of data-access policies —
+  evaluating user, device, service, environment, and data attributes to allow or
+  deny each request — backed by client SDKs for Java, C, C++, C#, Objective-C,
+  Python, and JavaScript, a Machina CLI, and cloud-storage integrations for AWS
+  S3, Google Cloud Storage, and Azure Storage. Ionic was venture-backed (GV,
+  Kleiner Perkins, Ten Eleven Ventures) and was acquired by Twilio in April 2021
+  for roughly $30.2 million to accelerate Twilio's data-security capabilities.
+  The company's developer domains (ionic.com, dev.ionic.com, api.ionic.com) are
+  no longer live, but the first-party SDKs and CLI remain published on Maven
+  Central, PyPI, and the IonicDev GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/ionic-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 - kleiner-perkins
+- ten-eleven-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: twilio
+x-acquired-date: '2021-04-09'
+x-product: Machina (data protection & dynamic authorization)
+x-headquarters: Atlanta, Georgia, USA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Security
+- Data Protection
+- Encryption
+- Dynamic Authorization
+- Cybersecurity
+- SDKs
+- Acquired
 apis: []
+common:
+- type: Packages
+  name: Ionic Machina Packages
+  url: packages/ionic-security-packages.yml
+- type: SDKs
+  name: Machina Client SDKs
+  url: packages/ionic-security-packages.yml
+- type: CLI
+  name: Machina CLI
+  url: cli/ionic-security-cli.yml
+- type: GitHubOrganization
+  name: IonicDev on GitHub
+  url: https://github.com/IonicDev
+- type: SourceCode
+  name: Ionic Machina SDKs & CLI source
+  url: https://github.com/IonicDev
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
