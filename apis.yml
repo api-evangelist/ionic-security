@@ -40,7 +40,7 @@ x-acquired-by: twilio
 x-acquired-date: '2021-04-09'
 x-product: Machina (data protection & dynamic authorization)
 x-headquarters: Atlanta, Georgia, USA
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
