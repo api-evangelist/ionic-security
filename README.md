@@ -1,4 +1,4 @@
-# Ionic Security *
+# Ionic Security
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ionic Security * is a company surfaced as a portfolio company of gv, kleiner-perkins and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: gv, kleiner-perkins
+Ionic Security was an Atlanta, Georgia data-protection and dynamic-authorization company whose Machina platform let developers add data access, control, and protection to any application with a small amount of code. Machina provided an API-driven service layer for just-in-time enforcement of data-access policies — evaluating user, device, service, environment, and data attributes to allow or deny each request — backed by client SDKs for Java, C, C++, C#, Objective-C, Python, and JavaScript, a Machina CLI, and cloud-storage integrations for AWS S3, Google Cloud Storage, and Azure Storage. Ionic was venture-backed (GV, Kleiner Perkins, Ten Eleven Ventures) and was acquired by Twilio in April 2021 for roughly $30.2 million to accelerate Twilio's data-security capabilities. The company's developer domains (ionic.com, dev.ionic.com, api.ionic.com) are no longer live, but the first-party SDKs and CLI remain published on Maven Central, PyPI, and the IonicDev GitHub organization.
+
+**Areas:** Company · Enterprise · Security · Data Protection · Encryption · Dynamic Authorization · Cybersecurity · SDK · Acquired
+
+## Ionic Security on APIs.io (historical record)
+
+Everything profiled for Ionic Security is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ionic-security/](https://apis.io/providers/ionic-security/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/IonicDev)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ionic Security: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ionic-security/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
